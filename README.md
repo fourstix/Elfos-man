@@ -15,6 +15,23 @@ Usage:  man *topic*
 
 The man program will open the file *topic.hlp* in the _/man_ directory and load the file into the text buffer.   The user may use the browser commands listed below to browse the information file, and then close the man browser with the Alt-X command.
 
+Topics
+-------
+
+* man          - The default man page file
+* base4        - List of Base Utility programs for Elf/OS v4 and Mini-DOS
+* base5        - List of Base Utility programs for Elf/OS v5
+* intro        - Introduction to Elf/OS v4
+* hdstruct     - Hard disk structure for Elf/OS v4
+* inside       - Information about Elf/OS v4 Internals
+* kernel5      - Kernel API for Elf/OS v5
+* bios         - Bios information for Elf/OS and Mini-DOS
+* rcbasic      - RC/Basic documentation
+* icalc	       - Elf/OS v5 integer calculator
+* fsck         - Elf/OS v5 file system checker
+* scandir      - Elf/OS v5 directory scan and fix utility
+
+
 Elf/OS Man Browser Commands
 ----------------------------
 <table>
@@ -103,8 +120,8 @@ Repository Contents
   * kernel.inc - Kernel definitions from Elf/OS
 * **/bin/**  -- Binary files for Elf/OS man program.
   * man.elfos - Elf/OS binary file for the Elf/OS man program
-* **/man/** -- various help information files for use with man.
-* **/lbr/** -- library archive files with help inforamtion files. Unpack these files with the command *lbr e libname* where libname is the archive name _without_ the .lbr extension.
+* **/pages/** -- topic files for use with the man program.
+* **/lbr/** -- library archive file with man page topic files. Unpack these files with the command *lbr e libname* where libname is the archive name _without_ the .lbr extension.
 
 References
 ----------
