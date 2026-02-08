@@ -122,7 +122,9 @@ Repository Contents
   * man.elfos - Elf/OS binary file for the Elf/OS man program
 * **/pages/** -- topic files for use with the man program.
 * **/lbr/** -- library archive file with man page topic files. Unpack these files with the command *lbr e libname* where libname is the archive name _without_ the .lbr extension.
-
+  * topics.lbr - all man page topics (for ELf/OS v5, Elf/OS v4 and Mini-DOS)
+  * v4topics.lbr - man page topics (for Elf/OS v4 and Mini-DOS)
+  * v5topics.lbr - man page topics (for ELf/OS v5)
 References
 ----------
 * [ANSI Escape Sequences](https://gist.github.com/fnky/458719343aabd01cfb17a3a4f7296797)
